@@ -1,0 +1,171 @@
+endpoint_add_tcp "0.0.0.0:30120"
+endpoint_add_udp "0.0.0.0:30120"
+
+set mysql_connection_string "server=127.0.0.1;uid=root;password=;database=ghost"
+
+stop webadmin
+ensure mapmanager
+ensure chat
+ensure spawnmanager
+ensure sessionmanager
+ensure vehcontrol
+ensure fivem
+ensure GHMattiMySQL
+ensure skz-character
+ensure skz-logo
+ensure skz-npc
+ensure skz-circleminimap
+ensure mysql-async
+ensure JD_logs
+ensure Arc-Wall
+ensure vsync
+
+ensure vrp
+ensure vrp_admin
+ensure vrp_ghmattimysql
+ensure vrp_animacoes
+ensure vrp_bank
+ensure vrp_atm
+ensure vrp_barbershop
+ensure vrp_benefactor
+ensure vrp_bdonate
+ensure vrp_blipsystem
+ensure vrp_checkin
+ensure vrp_chest
+ensure vrp_crafting
+ensure vrp_codes
+ensure vrp_dna
+ensure vrp_doors
+ensure vrp_engine
+ensure vrp_garages
+ensure vrp_homes
+ensure vrp_hospital
+ensure vrp_hud
+ensure vrp_inspect
+ensure vrp_inventory
+ensure vrp_login
+ensure vrp_notepad
+ensure vrp_notify
+ensure vrp_notifycall
+ensure vrp_notifyitens
+ensure vrp_player
+ensure vrp_prison
+ensure vrp_lscustoms
+ensure vrp_races
+ensure vrp_radio
+ensure vrp_rope
+ensure vrp_safelocker
+ensure vrp_shops
+ensure vrp_skinshop
+ensure vrp_sounds
+ensure vrp_spawn
+ensure vrp_survival
+ensure vrp_tablet
+ensure vrp_tackle
+ensure vrp_taskbar
+ensure vrp_tencode
+ensure vrp_trucker
+ensure vrp_trunkchest
+ensure vrp_weapons
+ensure vrp_tattoos
+ensure vrp_helicam
+ensure logsystem
+
+ensure vrp_cashmachine
+ensure vrp_colheita
+ensure vrp_delivery
+ensure vrp_dismantle
+ensure vrp_gangs
+ensure vrp_garbageman
+ensure vrp_hunting
+ensure vrp_impound
+ensure vrp_lumberman
+ensure vrp_methlabs
+ensure vrp_postop
+ensure vrp_products
+ensure vrp_robberys
+ensure vrp_stockade
+ensure vrp_towdriver
+ensure vrp_weplant
+
+ensure mysql-async
+ensure cs-video-call
+ensure ps_phone
+ensure screenshot-basic
+ensure webpack
+ensure yarn
+
+ensure skz-pearls
+ensure skz-pearls2
+ensure skz-hospital
+ensure skz-megamal
+ensure skz-garagem
+ensure skz-zancudo
+ensure skz-banco
+
+ensure aq2jzgterace
+ensure aqtoy2jzstock
+ensure ghost_clothes
+ensure ghost_criancas
+ensure ghost_maps
+ensure ghost_hospital
+ensure ghost_maps2
+ensure ghost_blips
+ensure ghost_peds
+ensure ghost_favs
+ensure ghost_veiculos
+ensure ghost_viaturas
+ensure ghost_entrada
+
+ensure tota_core
+ensure tota_stereo
+
+ensure pma-voice
+ensure radio
+
+ensure vrp_drivernorte
+ensure vrp_driversul
+
+ensure corolacoruja
+
+sv_hostname "SKZ Roleplay — 🎉 1 ANO"
+sets sv_projectName "[BRASIL] SKZ ROLEPLAY | FAVELAS | FACÇÕES LIVRES | LGBTQ+ | PING BR"
+sets sv_projectDesc "[BRASIL] SKZ ROLEPLAY | FAVELAS | FACÇÕES LIVRES | LGBTQ+ | PING BR"
+sv_master1 ""
+sv_maxclients 7
+sets Discord "https://discord.com/59G6xUxBpD"
+sets Dono "ghost"
+sets Desenvolvedor "ghost"
+sets locale "pt-BR"
+sets Ping "Brasil"
+sets tags "brasil,br,vrpex,roleplay,LGBTQ+,skz,favelas,vrp,br,portugues"
+
+load_server_icon skz.png
+sets banner_detail "https://i.imgur.com/EOrIL2p.png"
+sets banner_connecting "https://i.imgur.com/EOrIL2p.png"
+
+add_ace group.admin command allow
+add_ace group.admin command.quit allow
+add_principal identifier.steam:11000010b55307f group.admin # GHOST
+add_principal identifier.steam:110000134a9e336 group.admin # THAYNISON
+
+sv_scriptHookAllowed 0
+sv_endpointprivacy true
+
+setr voice_syncData 1
+setr voice_useNativeAudio true
+setr voice_useSendingRangeOnly true
+
+onesync on
+
+#onesync_enabled true
+#onesync_enableInfinity 1
+onesync_distanceCullVehicles 1
+onesync_forceMigration 1
+onesync_population true
+set onesync_enableBeyond 1
+set sv_enforceGameBuild 2612
+
+set steam_webApiKey "A2FAF8CF83B87E79D9E993F1F47A0885"
+sv_licenseKey 3zmvk738pkv3g8gxoaqaf1526n3emxmw
+#sv_licenseKey cfxk_X88k1eL9MAhKVlXUOhzN_3Gtoqs
