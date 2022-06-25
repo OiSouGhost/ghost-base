@@ -1,0 +1,33 @@
+[
+  {
+    "name": "ghost_dev",
+    "master": true,
+    "password_hash": "$2a$11$k0u7Mootv.CHtr/qD8nxwud4/IkzSKvI08w1bZUI8LBsk8NdXJVfS",
+    "providers": {
+      "citizenfx": {
+        "id": "ghost_dev",
+        "identifier": "fivem:3399354",
+        "data": {
+          "sub": "ca604a0dbeb190af21425a24a40502be",
+          "nameid": "https://forum.cfx.re/internal/user/3399354",
+          "name": "ghost_dev",
+          "picture": "https://avatars.discourse.org/v4/letter/g/7933a0/256.png",
+          "profile": "https://forum.cfx.re/u/ghost_dev"
+        }
+      }
+    },
+    "permissions": []
+  },
+  {
+    "name": "Cthaynison",
+    "master": false,
+    "password_hash": "$2a$11$6V9PzjasBcJgFsmUTJHkGe0f1i3PFvonJvkgmebmaoMEOhbt0/Q3C",
+    "providers": {},
+    "permissions": [
+      "console.view",
+      "control.server",
+      "commands.resources",
+      "server.cfg.editor"
+    ]
+  }
+]

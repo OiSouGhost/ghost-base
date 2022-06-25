@@ -1,0 +1,86 @@
+
+================================================================
+======== txAdmin Starting - 6/20/2022, 11:46:38 PM              
+================================================================
+
+================================================================
+======== txAdmin Starting - 6/20/2022, 11:49:25 PM              
+================================================================
+[23:50:11] [ghost_dev] created admins file
+[23:51:01] [ghost_dev] Changing global/fxserver settings via setup stepper.
+[23:54:54] [ghost_dev] Editing server CFG File.
+[23:55:18] [ghost_dev] RESTART SERVER
+[00:02:29] [ghost_dev] logged in from 177.124.14.17 via password
+[00:03:12] [ghost_dev] Editing server CFG File.
+[00:03:16] [ghost_dev] RESTART SERVER
+[00:06:58] [ghost_dev] RESTART SERVER
+[00:11:53] [ghost_dev] RESTART SERVER
+[00:16:40] [ghost_dev] RESTART SERVER
+[00:26:18] [ghost_dev] Changing discordBot settings.
+[00:26:30] [ghost_dev] Changing discordBot settings.
+[00:26:47] [ghost_dev] RESTART SERVER
+[00:52:47] [ghost_dev] RESTART SERVER
+[01:11:40] [ghost_dev] Adding admin 'Cthaynison'.
+[01:12:31] [Cthaynison] logged in from 45.169.185.4 via password
+[01:13:00] [Cthaynison] RESTART SERVER
+[01:13:34] [Cthaynison] Changing own password.
+[01:14:46] [Cthaynison] refresh
+[01:33:32] [Cthaynison] RESTART SERVER
+[01:36:15] [ghost_dev] Editing user 'Cthaynison'.
+[01:41:17] [ghost_dev] Editing server CFG File.
+[01:41:23] [ghost_dev] ensure "Arc-Wall"
+[01:41:24] [ghost_dev] ensure "JD_logs"
+[02:01:58] [Cthaynison] refresh
+[02:02:07] [Cthaynison] ensure "vrp_driversul"
+[02:29:25] [Cthaynison] Editing server CFG File.
+[02:30:23] [Cthaynison] Editing server CFG File.
+[02:41:07] [ghost_dev] logged in via in-game ui
+[02:48:20] [ghost_dev] Warned #1: oi coruja
+[02:48:41] [ghost_dev] Warned #5: teste
+[02:53:45] [ghost_dev] STOP SERVER
+
+================================================================
+======== txAdmin Starting - 6/21/2022, 11:15:01 AM              
+================================================================
+[21:06:17] [ghost_dev] logged in via in-game ui
+[21:47:01] [Cthaynison] logged in from 45.169.185.4 via password
+[22:00:08] [ghost_dev] logged in via in-game ui
+[22:25:15] [Cthaynison] RESTART SERVER
+[22:40:48] [ghost_dev] logged in from 177.124.14.0 via password
+[22:41:05] [ghost_dev] Editing server CFG File.
+[22:41:12] [ghost_dev] RESTART SERVER
+[22:46:29] [ghost_dev] Editing server CFG File.
+[22:46:35] [ghost_dev] RESTART SERVER
+[22:49:21] [ghost_dev] Editing server CFG File.
+[22:49:30] [ghost_dev] RESTART SERVER
+[22:52:01] [ghost_dev] logged in via in-game ui
+[22:56:27] [ghost_dev] Editing server CFG File.
+[22:58:27] [ghost_dev] Editing server CFG File.
+[23:02:49] [ghost_dev] Editing server CFG File.
+[23:02:50] [Cthaynison] Editing server CFG File.
+[23:03:23] [ghost_dev] RESTART SERVER
+[23:05:01] [ghost_dev] Changing fxRunner settings.
+[23:05:16] [ghost_dev] Editing server CFG File.
+[23:05:22] [ghost_dev] Editing server CFG File.
+[23:05:39] [ghost_dev] RESTART SERVER
+[23:06:08] [ghost_dev] Changing fxRunner settings.
+[23:08:26] [ghost_dev] logged in via in-game ui
+[23:12:15] [ghost_dev] Editing server CFG File.
+[23:12:19] [ghost_dev] RESTART SERVER
+[23:20:40] [ghost_dev] Editing server CFG File.
+[23:26:29] [ghost_dev] logged in via in-game ui
+[14:34:18] [Cthaynison] RESTART SERVER
+[15:43:02] [Cthaynison] Editing server CFG File.
+[15:43:13] [Cthaynison] Editing server CFG File.
+[15:43:18] [Cthaynison] RESTART SERVER
+[16:37:48] [ghost_dev] logged in from 187.26.215.3 via password
+[17:38:52] [Cthaynison] RESTART SERVER
+[17:48:42] [Cthaynison] RESTART SERVER
+[20:31:52] [ghost_dev] logged in via in-game ui
+[20:50:56] [ghost_dev] logged in via in-game ui
+[21:31:50] [Cthaynison] RESTART SERVER
+[21:33:40] [ghost_dev] Editing server CFG File.
+[21:33:45] [ghost_dev] RESTART SERVER
+[21:50:29] [Cthaynison] logged in from 45.169.185.4 via password
+[23:12:55] [ghost_dev] logged in from 177.124.14.43 via password
+[23:14:18] [ghost_dev] STOP SERVER

@@ -1,0 +1,117 @@
+{
+    "7de717f3-d5bc-467a-8cb8-4b04914dddcd": {
+        "BanReason": "Using cheat menus on ESX server.",
+        "BannedOnServer": "BCLRP (Haze)",
+        "BannedBy": "JokeDevil#0251",
+        "Identifiers": [
+            "license:30e909e3d7a73dd24555eec23ef3e4ae1352aabd",
+            "license2:30e909e3d7a73dd24555eec23ef3e4ae1352aabd",
+            "steam:11000013f5238e4",
+            "ip:82.20.92.19",
+            "discord:671456690973048869"
+        ],
+        "Evidence": "https://prefech.com/i/04a12L2021N740.png",
+        "Lifted": false
+    },
+    "fb59ce02-7b13-4674-a30a-ec3e5de57e78": {
+        "BanReason": "Using cheats on ESX server.",
+        "BannedOnServer": "BCLRP (Haze)",
+        "BannedBy": "JokeDevil#0251",
+        "Identifiers": [
+            "ip:82.17.221.59",
+            "license2:d1e9d610809dcee353ee303901e69e986efaf7a3",
+            "steam:110000144e92a1d",
+            "discord:747534885639422055"
+        ],
+        "Evidence": "https://prefech.com/i/04D12q2021v741.png",
+        "Lifted": false
+    },
+    "006aac32-9e31-4444-972e-e63af17012c6": {
+        "BanReason": "Automated Ban: Lua injector.",
+        "BannedOnServer": "Automated Ban (Prefech)",
+        "BannedBy": "JokeDevil#0251",
+        "Identifiers": [
+            "discord:893928969689251921",
+            "steam:11000010e04ad3e",
+            "license:1973b25a6867842f3fcc6e49b05c42e90934528d",
+            "license2:1973b25a6867842f3fcc6e49b05c42e90934528d",
+            "ip:37.4.228.221"
+        ],
+        "Evidence": "https://prefech.com/i/imageproxy.gif",
+        "Lifted": false
+    },
+    "fbe835b1-bf23-49ed-afde-30284af65e00": {
+        "BanReason": "MM",
+        "BannedOnServer": "UziRP (m4czus#1939)",
+        "BannedBy": "JokeDevil#0251",
+        "Identifiers": [
+            "steam:1100001488283fd",
+            "license:c64ef51079f92e3c0a0d679fb2895f491e0b591b"
+        ],
+        "Evidence": "https://prefech.com/i/screenshot.png",
+        "Lifted": false
+    },
+    "49a0fab1-2c31-49a5-bf4b-5ab0b19c537e": {
+        "BanReason": "Automated Ban (MM01)",
+        "BannedOnServer": "Automated Ban (Prefech)",
+        "BannedBy": "JokeDevil#0251",
+        "Identifiers": [
+            "discord:841823465232793670",
+            "steam:110000136db5bcd",
+            "license:5b7d4b2f5a05ccb463ffe98b2c56052eaf19be04",
+            "license2:03dccc0d8b35b7ee1e14f7d92ee2304bded84a63",
+            "ip:184.58.117.32"
+        ],
+        "Evidence": "https://prefech.com/i/imageproxy.gif",
+        "Lifted": false
+    },
+    "716ee2bc-3990-4e5f-9b62-65a55bab1208": {
+        "BanReason": "Automated Ban (MM01)",
+        "BannedOnServer": "Automated Ban (Prefech)",
+        "BannedBy": "JokeDevil#0251",
+        "Identifiers": [
+            "steam:1100001488650bd"
+        ],
+        "Evidence": "https://prefech.com/i/imageproxy.gif",
+        "Lifted": false
+    },
+    "0bd6eeea-4f33-4242-9d03-023ba61fe9ac": {
+        "BanReason": "MM02",
+        "BannedOnServer": "RaccoonRP (413826263279599616)",
+        "BannedBy": "JokeDevil#3044",
+        "Identifiers": [
+            "steam:110000141bedbaf",
+            "discord:343833368007409686",
+            "license:fb14002b39e8529885f12f7e61ceee9c8b492ecf",
+            "ip:184.65.132.101"
+        ],
+        "Evidence": "https://prefech.com/i/MM01-adalion.png",
+        "Lifted": false
+    },
+    "71bc7c05-f719-4e3e-81d6-59b15f924388": {
+        "BanReason": "MM01",
+        "BannedOnServer": "RaccoonRP (413826263279599616)",
+        "BannedBy": "Galaxyy#2151",
+        "Identifiers": [
+            "discord:810368045859733544",
+            "steam:1100001439271dd",
+            "license:736a73ac127997c83ba95249e5909193d0f9677d",
+            "ip:199.195.209.137"
+        ],
+        "Evidence": "https://media.discordapp.net/attachments/928863659030097971/928864566169989140/unknown.png",
+        "Lifted": false
+    },
+    "c271676d-969a-47d2-94a1-20cf67be95c0": {
+        "BanReason": "MM02",
+        "BannedOnServer": "RaccoonRP (JhonnyS)",
+        "BannedBy": "Alastor#0939",
+        "Identifiers": [
+            "steam:11000014a409388",
+            "discord:350315164618194944",
+            "license:39c211de9a094689f4017f0fd161e1efabff8ba0",
+            "ip:47.18.23.62"
+        ],
+        "Evidence": "https://cdn.discordapp.com/attachments/931540080324128838/931555242263334962/screenshot.png",
+        "Lifted": false
+    }
+}

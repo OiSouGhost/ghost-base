@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>#vrp</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<style>
+		#index {
+			margin: 30px;
+			display: none;
+			position: absolute;
+		}
+
+		.spawnNow {
+			color: #fff;
+			width: 200px;
+			list-style: none;
+			user-select: none;
+			padding: 8px 25px;
+			text-align: center;
+			border-radius: 3px;
+			margin-bottom: 10px;
+			transition: width 0.5s;
+			background: rgba(50,10,0,0.5);
+			font-family: 'Roboto',sans-serif;
+		}
+
+		.spawnNow:hover {
+			background: rgba(50,10,0,0.7);
+		}
+
+		.spawn {
+			color: #fff;
+			width: 200px;
+			list-style: none;
+			user-select: none;
+			padding: 8px 25px;
+			text-align: center;
+			border-radius: 3px;
+			margin-bottom: 10px;
+			transition: width 0.5s;
+			background: rgba(0,0,0,0.5);
+			font-family: 'Roboto',sans-serif;
+		}
+
+		.spawn:hover {
+			background: rgba(0,0,0,0.7);
+		}
+	</style>
+</head>
+<body>
+	<div id="index">
+		<ul>
+			<li class="spawnNow" data-spawn="spawn">Spawn</li>
+			<li class="spawn" data-spawn="praca">Praça</li>
+			<li class="spawn" data-spawn="aeroporto">Aeroporto</li>
+			<li class="spawn" data-spawn="sandy">Deserto</li>
+			<li class="spawn" data-spawn="paleto">Paleto Bay</li>
+		</ul>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+	<script>
+		$(() => {
+			window.addEventListener('message',(event) => {
+				if (event.data.display) {
+					$('#index').show();
+				} else {
+					$('#index').hide();
+				}
+			})
+
+			$('li').click(function(){
+				$.post('http://vrp_login/spawn',JSON.stringify({ choice: $(this).data('spawn') }));
+			});
+		})
+	</script>
+</body>
+</html>

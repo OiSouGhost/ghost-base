@@ -1,0 +1,1163 @@
+
+================================================================
+======== Log Rotated - 6/23/2022, 12:41:03 AM                   
+================================================================
+
+================================================================
+======== FXServer Starting - 6/23/2022, 12:41:06 AM             
+================================================================
+[38;5;78m[              cmdsys] [0m[0mNo such command onesync.
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for _cfx_internal
+[ citizen-server-impl] [0m[32mScanning resources.[0m
+[ citizen-server-impl] Found 120 resources.
+[ citizen-server-impl] Some resources have an outdated resource manifest:
+[ citizen-server-impl]     - skz-logo
+[ citizen-server-impl]     - skz-npc
+[ citizen-server-impl] 
+[ citizen-server-impl] Please update these resources.
+[          svadhesive] Authenticating server license key...
+[38;5;66m[          svadhesive] Server license key authentication succeeded. Welcome!
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
+[ citizen-server-impl] [0mStarted resource sessionmanager
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for monitor
+[      script:monitor] [0m[txAdminClient][97m Version 4.14.2 starting...
+[38;5;73m[ citizen-server-impl] Started resource monitor
+[ citizen-server-impl] Couldn't find resource webadmin.
+[38;5;161m[    c-scripting-core] Creating script environments for mapmanager
+[ citizen-server-impl] Started resource mapmanager
+[38;5;161m[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[ citizen-server-impl] [0mStarted resource spawnmanager
+[    c-scripting-core] Creating script environments for vehcontrol
+[ citizen-server-impl] Started resource vehcontrol
+[ citizen-server-impl] [0mStarted resource fivem
+[    c-scripting-core] Creating script environments for GHMattiMySQL
+[38;5;77m[ script:GHMattiMySQL] Instantiated instance of script GHMattiMySQL.Core.
+[ citizen-server-impl] [0mStarted resource GHMattiMySQL
+[38;5;161m[    c-scripting-core] Creating script environments for skz-character
+[38;5;73m[ citizen-server-impl] Started resource skz-character
+[38;5;73m[ citizen-server-impl] Started resource skz-logo
+[ citizen-server-impl] [0mStarted resource skz-npc
+[38;5;73m[ citizen-server-impl] Started resource skz-circleminimap
+[38;5;161m[    c-scripting-core] Creating script environments for mysql-async
+[    c-scripting-core] [0mFailed to load script @ThnAC/natives.lua.
+[38;5;159m[  script:mysql-async] Instantiated instance of script MySQLAsync.MySQLThread.
+[38;5;159m[  script:mysql-async] Instantiated instance of script MySQLAsync.MySQLAsync.
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mysql-async
+[38;5;161m[    c-scripting-core] Creating script environments for JD_logs
+[ citizen-server-impl] Started resource JD_logs
+[38;5;161m[    c-scripting-core] Creating script environments for Arc-Wall
+[     script:Arc-Wall]  WALL INICIADO COM SUCESSO
+[38;5;73m[ citizen-server-impl] Started resource Arc-Wall
+[    c-scripting-core] Creating script environments for vsync
+[38;5;73m[ citizen-server-impl] Started resource vsync
+[38;5;161m[    c-scripting-core] [0m[32mCreating script environments for vrp
+[38;5;73m[ citizen-server-impl] [0mStarted resource vrp
+[    c-scripting-core] Creating script environments for vrp_admin
+[38;5;73m[ citizen-server-impl] Started resource vrp_admin
+[38;5;161m[    c-scripting-core] Creating script environments for vrp_ghmattimysql
+[38;5;73m[ citizen-server-impl] Started resource vrp_ghmattimysql
+[38;5;73m[ citizen-server-impl] [0m[32mStarted resource vrp_animacoes
+[38;5;161m[    c-scripting-core] Creating script environments for vrp_bank
+[38;5;73m[ citizen-server-impl] Started resource vrp_bank
+[38;5;161m[    c-scripting-core] [0m[32mCreating script environments for vrp_atm
+[38;5;73m[ citizen-server-impl] [0m[32mStarted resource vrp_atm
+[38;5;161m[    c-scripting-core] Creating script environments for vrp_barbershop
+[38;5;73m[ citizen-server-impl] Started resource vrp_barbershop
+[38;5;161m[    c-scripting-core] [0m[32mCreating script environments for vrp_benefactor
+[ citizen-server-impl] Started resource vrp_benefactor
+[    c-scripting-core] Creating script environments for vrp_bdonate
+[ citizen-server-impl] Started resource vrp_bdonate
+[    c-scripting-core] Creating script environments for vrp_blipsystem
+[ citizen-server-impl] Started resource vrp_blipsystem
+[    c-scripting-core] Creating script environments for vrp_checkin
+[ citizen-server-impl] Started resource vrp_checkin
+[    c-scripting-core] Creating script environments for vrp_chest
+[ citizen-server-impl] [0mStarted resource vrp_chest
+[    c-scripting-core] Creating script environments for vrp_crafting
+[ citizen-server-impl] Started resource vrp_crafting
+[ citizen-server-impl] [32mStarted resource vrp_codes
+[    c-scripting-core] Creating script environments for vrp_dna
+[ citizen-server-impl] Started resource vrp_dna
+[    c-scripting-core] Creating script environments for vrp_doors
+[ citizen-server-impl] Started resource vrp_doors
+[    c-scripting-core] Creating script environments for vrp_engine
+[ citizen-server-impl] Started resource vrp_engine
+[    c-scripting-core] Creating script environments for vrp_garages
+[ citizen-server-impl] [0mStarted resource vrp_garages
+[    c-scripting-core] Creating script environments for vrp_homes
+[ citizen-server-impl] Started resource vrp_homes
+[    c-scripting-core] Creating script environments for vrp_hospital
+[ citizen-server-impl] Started resource vrp_hospital
+[    c-scripting-core] Creating script environments for vrp_hud
+[ citizen-server-impl] Started resource vrp_hud
+[    c-scripting-core] Creating script environments for vrp_inspect
+[ citizen-server-impl] [0mStarted resource vrp_inspect
+[    c-scripting-core] Creating script environments for vrp_inventory
+[ citizen-server-impl] [32mStarted resource vrp_inventory
+[ citizen-server-impl] Started resource vrp_login
+[    c-scripting-core] Creating script environments for vrp_notepad
+[ citizen-server-impl] Started resource vrp_notepad
+[ citizen-server-impl] Started resource vrp_notify
+[ citizen-server-impl] Started resource vrp_notifycall
+[ citizen-server-impl] Started resource vrp_notifyitens
+[    c-scripting-core] Creating script environments for vrp_player
+[ citizen-server-impl] Started resource vrp_player
+[    c-scripting-core] Creating script environments for vrp_prison
+[ citizen-server-impl] Started resource vrp_prison
+[    c-scripting-core] Creating script environments for vrp_lscustoms
+[ citizen-server-impl] Started resource vrp_lscustoms
+[    c-scripting-core] Creating script environments for vrp_races
+[ citizen-server-impl] Started resource vrp_races
+[    c-scripting-core] Creating script environments for vrp_radio
+[ citizen-server-impl] [32mStarted resource vrp_radio
+[    c-scripting-core] Creating script environments for vrp_rope
+[ citizen-server-impl] Started resource vrp_rope
+[ citizen-server-impl] [32mStarted resource vrp_safelocker
+[    c-scripting-core] Creating script environments for vrp_shops
+[ citizen-server-impl] Started resource vrp_shops
+[    c-scripting-core] Creating script environments for vrp_skinshop
+[ citizen-server-impl] [32mStarted resource vrp_skinshop
+[ citizen-server-impl] [0mStarted resource vrp_sounds
+[    c-scripting-core] Creating script environments for vrp_spawn
+[ citizen-server-impl] [0mStarted resource vrp_spawn
+[    c-scripting-core] Creating script environments for vrp_survival
+[ citizen-server-impl] [0mStarted resource vrp_survival
+[    c-scripting-core] Creating script environments for vrp_tablet
+[ citizen-server-impl] [32mStarted resource vrp_tablet
+[    c-scripting-core] Creating script environments for vrp_tackle
+[ citizen-server-impl] [0mStarted resource vrp_tackle
+[ citizen-server-impl] [0mStarted resource vrp_taskbar
+[    c-scripting-core] Creating script environments for vrp_tencode
+[ citizen-server-impl] [0mStarted resource vrp_tencode
+[    c-scripting-core] Creating script environments for vrp_trucker
+[ citizen-server-impl] [0mStarted resource vrp_trucker
+[    c-scripting-core] Creating script environments for vrp_trunkchest
+[ citizen-server-impl] Started resource vrp_trunkchest
+[ citizen-server-impl] Started resource vrp_weapons
+[    c-scripting-core] Creating script environments for vrp_tattoos
+[ citizen-server-impl] Started resource vrp_tattoos
+[    c-scripting-core] Creating script environments for vrp_helicam
+[ citizen-server-impl] [32mStarted resource vrp_helicam
+[ citizen-server-impl] [0mStarted resource logsystem
+[    c-scripting-core] Creating script environments for vrp_cashmachine
+[ citizen-server-impl] [0mStarted resource vrp_cashmachine
+[    c-scripting-core] Creating script environments for vrp_colheita
+[ citizen-server-impl] [32mStarted resource vrp_colheita
+[    c-scripting-core] Creating script environments for vrp_delivery
+[ citizen-server-impl] [0mStarted resource vrp_delivery
+[    c-scripting-core] Creating script environments for vrp_dismantle
+[ citizen-server-impl] [32mStarted resource vrp_dismantle
+[    c-scripting-core] Creating script environments for vrp_gangs
+[ citizen-server-impl] Started resource vrp_gangs
+[    c-scripting-core] Creating script environments for vrp_garbageman
+[ citizen-server-impl] [32mStarted resource vrp_garbageman
+[    c-scripting-core] Creating script environments for vrp_hunting
+[ citizen-server-impl] [0mStarted resource vrp_hunting
+[    c-scripting-core] Creating script environments for vrp_impound
+[ citizen-server-impl] Started resource vrp_impound
+[    c-scripting-core] Creating script environments for vrp_lumberman
+[ citizen-server-impl] [0mStarted resource vrp_lumberman
+[    c-scripting-core] Creating script environments for vrp_methlabs
+[ citizen-server-impl] [32mStarted resource vrp_methlabs
+[    c-scripting-core] Creating script environments for vrp_postop
+[ citizen-server-impl] [32mStarted resource vrp_postop
+[    c-scripting-core] Creating script environments for vrp_products
+[ citizen-server-impl] [32mStarted resource vrp_products
+[    c-scripting-core] Creating script environments for vrp_robberys
+[ citizen-server-impl] Started resource vrp_robberys
+[    c-scripting-core] Creating script environments for vrp_stockade
+[ citizen-server-impl] [0mStarted resource vrp_stockade
+[    c-scripting-core] Creating script environments for vrp_towdriver
+[ citizen-server-impl] [0mStarted resource vrp_towdriver
+[    c-scripting-core] Creating script environments for vrp_weplant
+[ citizen-server-impl] [32mStarted resource vrp_weplant
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] Started resource yarn
+[    c-scripting-core] Creating script environments for cs-video-call
+[ citizen-server-impl] [32mStarted resource cs-video-call
+[    c-scripting-core] Creating script environments for ps_phone
+[ citizen-server-impl] Started resource ps_phone
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[ citizen-server-impl] Running build tasks on resource screenshot-basic - it'll restart once completed.
+[      script:webpack] screenshot-basic: started building client.config.js
+[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (server.config.js)
+[ citizen-server-impl] Couldn't start resource screenshot-basic.
+[ citizen-server-impl] Started resource skz-pearls
+[ citizen-server-impl] Started resource skz-pearls2
+[ citizen-server-impl] Started resource skz-hospital
+[ citizen-server-impl] Asset skz-megamal/MilosWalmart.ydr uses 20.8 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/MilosWalmart.ydr uses 20.8 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Pharmacy.ytd uses 20.1 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Pharmacy.ytd uses 20.1 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv32.ydr uses 25.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv32.ydr uses 25.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv36.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv36.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv36.ytd uses 36.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv36.ytd uses 36.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv37.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv37.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv39.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv39.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv40.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-megamal/Shelv40.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Started resource skz-megamal
+[ citizen-server-impl] Asset skz-garagem/cw_aka.ytd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-garagem/cw_aka.ytd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Started resource skz-garagem
+[ citizen-server-impl] Started resource skz-zancudo
+[ citizen-server-impl] Asset skz-banco/hei_obankbank_shell.ydr uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset skz-banco/hei_obankbank_shell.ydr uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Started resource skz-banco
+[ citizen-server-impl] Started resource aq2jzgterace
+[ citizen-server-impl] Started resource aqtoy2jzstock
+[ citizen-server-impl] Asset ghost_clothes/mp_f_freemode_01^task_diff_002_d_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_clothes/mp_f_freemode_01^task_diff_002_d_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_f_freemode_01^task_diff_003_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_clothes/mp_f_freemode_01^task_diff_003_d_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] [93mAsset ghost_clothes/mp_f_freemode_01_mp_f_bikerdlc_01^accs_diff_017_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_clothes/mp_f_freemode_01_mp_f_bikerdlc_01^accs_diff_017_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01^task_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01^task_diff_002_a_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01^task_diff_007_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01^task_diff_007_b_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_male_freemode_hipster^accs_diff_006_a_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_male_freemode_hipster^accs_diff_006_a_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_004_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_004_a_uni.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_004_b_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_004_c_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_clothes/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_004_c_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_013_c_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_gunrunning_01^jbib_diff_013_c_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_heist3^jbib_diff_006_a_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_heist3^jbib_diff_006_a_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_heist3^jbib_diff_007_a_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_heist3^jbib_diff_007_a_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_january2016^task_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_january2016^task_diff_001_a_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_january2016^task_diff_001_b_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_clothes/mp_m_freemode_01_mp_m_january2016^task_diff_001_b_uni.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Started resource ghost_clothes
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_femaleagent.ydd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_femaleagent.ydd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_femaleagent.ytd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_femaleagent.ytd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_runner_01.ytd uses 28.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_criancas/a_f_y_runner_01.ytd uses 28.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_topless_01.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_topless_01.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_topless_01.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_topless_01.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_tourist_01.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_tourist_01.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_tourist_01.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] [93mAsset ghost_criancas/a_f_y_tourist_01.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_vinewood_04.ydd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_vinewood_04.ydd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_vinewood_04.ytd uses 36.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_f_y_vinewood_04.ytd uses 36.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_m_y_business_03.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_m_y_business_03.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/a_m_y_hipster_02.ytd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_criancas/a_m_y_hipster_02.ytd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/csb_agent.ytd uses 34.0 MiB of physical memory.
+[ citizen-server-impl] [93mAsset ghost_criancas/csb_agent.ytd uses 34.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/csb_mp_agent14.ytd uses 51.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] [93mAsset ghost_criancas/csb_mp_agent14.ytd uses 51.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_criancas/g_f_y_ballas_01.ydd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/g_f_y_ballas_01.ydd uses 18.0 MiB of virtual memory.
+[ citizen-server-impl] [94mAsset ghost_criancas/g_f_y_ballas_01.ydd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/g_f_y_ballas_01.ydd uses 18.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_criancas/g_f_y_ballas_01.ytd uses 96.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_criancas/g_f_y_ballas_01.ytd uses 96.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_criancas/g_m_m_armgoon_01.ydd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/g_m_m_armgoon_01.ydd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/g_m_m_armgoon_01.ytd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/g_m_m_armgoon_01.ytd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/g_m_y_korlieut_01.ytd uses 40.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_criancas/g_m_y_korlieut_01.ytd uses 40.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/ig_groom.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] [0mAsset ghost_criancas/ig_groom.ytd uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_criancas/ig_tonya.ydd uses 19.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_criancas/ig_tonya.ydd uses 19.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_criancas/s_f_m_sweatshop_01.ydd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/s_f_m_sweatshop_01.ydd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/s_f_m_sweatshop_01.ytd uses 38.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_criancas/s_f_m_sweatshop_01.ytd uses 38.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/s_f_y_airhostess_01.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/s_f_y_airhostess_01.ydd uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/s_f_y_airhostess_01.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/s_f_y_airhostess_01.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/s_m_y_valet_01.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/s_m_y_valet_01.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/u_m_y_abner.ytd uses 38.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_criancas/u_m_y_abner.ytd uses 38.0 MiB of physical memory.
+[ citizen-server-impl] Started resource ghost_criancas
+[ citizen-server-impl] Asset ghost_maps/w_ar_carbinerifle.ytd uses 31.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_maps/w_ar_carbinerifle.ytd uses 31.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_maps/bobo_prison_lobby_glass_texture.ytd uses 28.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_maps/bobo_prison_lobby_glass_texture.ytd uses 28.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_maps/bobo_prison_lobby_shell.ydr uses 16.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_maps/bobo_prison_lobby_shell.ydr uses 16.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_maps/globalroads.ytd uses 24.9 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_maps/globalroads.ytd uses 24.9 MiB of physical memory.
+[ citizen-server-impl] [0mStarted resource ghost_maps
+[ citizen-server-impl] Couldn't find resource ghost_hospital.
+[ citizen-server-impl] Asset ghost_maps2/bs_int_txd.ytd uses 18.8 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_maps2/bs_int_txd.ytd uses 18.8 MiB of physical memory.
+[ citizen-server-impl] Started resource ghost_maps2
+[ citizen-server-impl] Couldn't find resource ghost_blips.
+[ citizen-server-impl] Asset ghost_peds/Ayka.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_peds/Ayka.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_peds/BabyAshley_SKINS_COLLINS.ydd uses 32.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/BabyAshley_SKINS_COLLINS.ydd uses 32.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/BabyCandyAntonela.ydd uses 17.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/BabyCandyAntonela.ydd uses 17.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/BabyGirlTrixy_MILLERSTORE.ydd uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/BabyGirlTrixy_MILLERSTORE.ydd uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/BabyHanna_SKINS_COLLINS.ydd uses 22.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/BabyHanna_SKINS_COLLINS.ydd uses 22.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/CS_GaabNb.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_peds/CS_GaabNb.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_peds/CS_JasmineKidFixx.ydd uses 22.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/CS_JasmineKidFixx.ydd uses 22.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/CS_KeenToddler01.ydd uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/CS_KeenToddler01.ydd uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/FF113_Pudim_TBMODSB.ytd uses 72.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_peds/FF113_Pudim_TBMODSB.ytd uses 72.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_peds/FF96_EmiBoy_TBMODSB.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_peds/FF96_EmiBoy_TBMODSB.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_peds/KidCamis_MILLERSTORE.ydd uses 36.0 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_peds/KidCamis_MILLERSTORE.ydd uses 36.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/LS_ClosetPietro.ydd uses 26.0 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_peds/LS_ClosetPietro.ydd uses 26.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_peds/LS_roupinhasYUMMY.ydd uses 92.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_peds/LS_roupinhasYUMMY.ydd uses 92.0 MiB of virtual memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] [94mAsset ghost_peds/LS_roupinhasYUMMY.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_peds/LS_roupinhasYUMMY.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_peds/MF63_JhonA_TBMODSB.ytd uses 28.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_peds/MF63_JhonA_TBMODSB.ytd uses 28.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_peds/MNB04_Tete_TBMODSB.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_peds/MNB04_Tete_TBMODSB.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Started resource ghost_peds
+[ citizen-server-impl] Asset ghost_favs/fav_brkk_graffiti.ytd uses 23.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_favs/fav_brkk_graffiti.ytd uses 23.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_favs/gm_texturas_casa.ytd uses 35.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_favs/gm_texturas_casa.ytd uses 35.0 MiB of physical memory.
+[ citizen-server-impl] Started resource ghost_favs
+[ citizen-server-impl] Asset ghost_veiculos/rmodskyline34.yft uses 19.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rmodskyline34.yft uses 19.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rmodskyline34.ytd uses 36.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/rmodskyline34.ytd uses 36.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/rmodskyline34_hi.yft uses 18.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rmodskyline34_hi.yft uses 18.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/toyotasupra.yft uses 21.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/toyotasupra.yft uses 21.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/toyotasupra_hi.yft uses 19.3 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/toyotasupra_hi.yft uses 19.3 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/africat.ytd uses 104.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/africat.ytd uses 104.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/amarok.ytd uses 88.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/amarok.ytd uses 88.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_hi.yft uses 17.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_hi.yft uses 17.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_2.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_2.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_3.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_3.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_4.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_4.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_5.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_5.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bug300ss.ytd uses 72.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/bug300ss.ytd uses 72.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/fd.ytd uses 43.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/fd.ytd uses 43.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bg700w.yft uses 16.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bg700w.yft uses 16.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bg700w.ytd uses 44.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bg700w.ytd uses 44.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bg700w_hi.yft uses 16.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/golf75r.yft uses 30.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/golf75r.yft uses 30.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/golf75r.ytd uses 49.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/golf75r.ytd uses 49.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/golf75r_hi.yft uses 30.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/golf75r_hi.yft uses 30.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/h2carb.ytd uses 45.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/h2carb.ytd uses 45.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/hcbr17.yft uses 16.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/hcbr17.yft uses 16.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/hcbr17.ytd uses 86.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/hcbr17.ytd uses 86.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/hcbr17_hi.yft uses 16.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/hcbr17_hi.yft uses 16.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/lhuracant.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/lhuracant.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/lhuracant.ytd uses 73.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').[0m
+[ citizen-server-impl] Asset ghost_veiculos/lhuracant.ytd uses 73.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/lhuracant_hi.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/lhuracant_hi.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mclarenp1_hi.yft uses 23.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mclarenp1_hi.yft uses 23.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/nissantitan17.ytd uses 52.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/nissantitan17.ytd uses 52.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/r1250.yft uses 32.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r1250.yft uses 32.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r1250_hi.yft uses 32.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r1250_hi.yft uses 32.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r35.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/r35.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/r820.yft uses 18.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r820.yft uses 18.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r820.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/r820.ytd uses 78.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/r820_hi.yft uses 18.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r820_hi.yft uses 18.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rmodgt63.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rmodgt632.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rmodgt632.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/s1000rr.ytd uses 160.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/s1000rr.ytd uses 160.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/urus.yft uses 17.7 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/urus.yft uses 17.7 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/urus.ytd uses 86.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/urus.ytd uses 86.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/urus_hi.yft uses 17.7 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/urus_hi.yft uses 17.7 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_urus4.ydr uses 48.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_urus4.ydr uses 48.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/z1000.ytd uses 25.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/z1000.ytd uses 25.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/zh2.yft uses 16.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/zh2.yft uses 16.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/zh2.ytd uses 152.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/zh2.ytd uses 152.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/zh2_hi.yft uses 16.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/zh2_hi.yft uses 16.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/370z.yft uses 22.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/370z.yft uses 22.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/370z_hi.yft uses 22.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/370z_hi.yft uses 22.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/amggtr3.yft uses 19.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/amggtr3.yft uses 19.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/amggtr3_hi.yft uses 19.9 MiB of virtual memory.[0m
+[ citizen-server-impl] Asset ghost_veiculos/amggtr3_hi.yft uses 19.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmci.yft uses 26.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmci.yft uses 26.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmci_hi.yft uses 26.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmci_hi.yft uses 26.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/f458.yft uses 28.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/f458.yft uses 28.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/f458_hi.yft uses 28.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/f458_hi.yft uses 28.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fpacehm.yft uses 21.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fpacehm.yft uses 21.8 MiB of virtual memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/fpacehm_hi.yft uses 21.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fpacehm_hi.yft uses 21.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/g500.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/g500.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/i8.ytd uses 128.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/i8.ytd uses 128.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/i8_hi.yft uses 20.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/i8_hi.yft uses 20.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/jagpr8.yft uses 22.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/jagpr8.yft uses 22.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/jagpr8.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/jagpr8.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/mers63c.yft uses 30.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mers63c.yft uses 30.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mers63c_hi.yft uses 30.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mers63c_hi.yft uses 30.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/panamera17turbo.yft uses 21.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/panamera17turbo.yft uses 21.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/panamera17turbo_hi.yft uses 21.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/panamera17turbo_hi.yft uses 21.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rxf7.yft uses 26.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rxf7.yft uses 26.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rxf7.ytd uses 25.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/rxf7.ytd uses 25.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/rxf7_hi.yft uses 26.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rxf7_hi.yft uses 26.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/velociraptor.yft uses 19.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/velociraptor.yft uses 19.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/velociraptor_hi.yft uses 19.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/velociraptor_hi.yft uses 19.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/19S63.yft uses 27.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/19S63.yft uses 27.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/19S63_hi.yft uses 27.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/19S63_hi.yft uses 27.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/350z.yft uses 17.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/350z.yft uses 17.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/540ig30.yft uses 30.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/540ig30.yft uses 30.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/540ig30_hi.yft uses 30.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/540ig30_hi.yft uses 30.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/760m.yft uses 29.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/760m.yft uses 29.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/760m_hi.yft uses 29.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/760m_hi.yft uses 29.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/astonmartindbs.yft uses 19.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/astonmartindbs.yft uses 19.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/astonmartindbs.ytd uses 23.8 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/astonmartindbs.ytd uses 23.8 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/astonmartindbs_hi.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/astonmartindbs_hi.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/audiq8.yft uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/audiq8.yft uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/audiq8_hi.yft uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/audiq8_hi.yft uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/audir8.ytd uses 25.8 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/audir8.ytd uses 25.8 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/audirs6.yft uses 19.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/audirs6.yft uses 19.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/audirs6_hi.yft uses 16.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/audirs6_hi.yft uses 16.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/B412.yft uses 19.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/B412.yft uses 19.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/B412.ytd uses 26.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/B412.ytd uses 26.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/B412_hi.yft uses 18.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/B412_hi.yft uses 18.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bloodline.yft uses 17.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bloodline.yft uses 17.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bloodline_hi.yft uses 17.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bloodline_hi.yft uses 17.5 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/bmwg05.ytd uses 30.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05.ytd uses 30.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_hi.yft uses 18.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_hi.yft uses 18.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery2.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery2.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery3.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery3.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery4.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery4.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery5.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery5.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwg05_livery9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/bmwi8.yft uses 16.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwi8.yft uses 16.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwi8.ytd uses 29.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwi8.ytd uses 29.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm1wb.yft uses 28.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm1wb.yft uses 28.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm1wb_hi.yft uses 28.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm1wb_hi.yft uses 28.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm4gts.yft uses 22.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm4gts.yft uses 22.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm4gts_hi.yft uses 20.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm4gts_hi.yft uses 20.5 MiB of virtual memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/bmwm5e34.yft uses 16.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm5e34.yft uses 16.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm5e34.ytd uses 22.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm5e34.ytd uses 22.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm8.yft uses 23.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm8.yft uses 23.8 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/bmwm8_hi.yft uses 23.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwm8_hi.yft uses 23.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwx7.yft uses 29.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwx7.yft uses 29.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwx7_hi.yft uses 29.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bmwx7_hi.yft uses 29.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_hi.yft uses 17.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_hi.yft uses 17.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_2.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_2.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_3.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_3.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_4.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_4.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_5.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_5.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/bnr34_livery_8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/BRSranger.yft uses 19.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/BRSranger.yft uses 19.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/BRSranger.ytd uses 26.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/BRSranger.ytd uses 26.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/BRSranger_hi.yft uses 19.1 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/BRSranger_hi.yft uses 19.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/cargo150.ytd uses 30.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/cargo150.ytd uses 30.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/cbr1000rrr.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/cbr1000rrr.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/cbr1000rrr_hi.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/cbr1000rrr_hi.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/dodgechargerrt69.yft uses 18.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/dodgechargerrt69.yft uses 18.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/dodgechargerrt69.ytd uses 25.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/dodgechargerrt69.ytd uses 25.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/dodgechargerrt69_hi.yft uses 16.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/dodgechargerrt69_hi.yft uses 16.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/dodgeramtrx.yft uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/dodgeramtrx.yft uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/dodgeramtrx_hi.yft uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/dodgeramtrx_hi.yft uses 20.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/ducati1200.ytd uses 17.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/ducati1200.ytd uses 17.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/escalade2021.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/escalade2021.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/escalade2021_hi.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/escalade2021_hi.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/escaladegt900.ytd uses 28.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/escaladegt900.ytd uses 28.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/ferrari812.yft uses 18.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/ferrari812.yft uses 18.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/ferrari812_hi.yft uses 18.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/ferrari812_hi.yft uses 18.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/ferrarif40.ytd uses 25.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/ferrarif40.ytd uses 25.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/ferrariitalia.ytd uses 16.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/ferrariitalia.ytd uses 16.5 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/fmss.yft uses 18.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fmss.yft uses 18.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fmss_hi.yft uses 18.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fmss_hi.yft uses 18.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fordbronco.yft uses 17.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fordbronco.yft uses 17.8 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/fordbronco.ytd uses 21.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/fordbronco.ytd uses 21.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/fordbronco_hi.yft uses 17.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fordbronco_hi.yft uses 17.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fordmustang.yft uses 17.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fordmustang.yft uses 17.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fordmustang.ytd uses 17.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/fordmustang.ytd uses 17.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/fz07.yft uses 19.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fz07.yft uses 19.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fz07_hi.yft uses 19.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/fz07_hi.yft uses 19.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/giuliagta.yft uses 28.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/giuliagta.yft uses 28.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/giuliagta_hi.yft uses 28.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/giuliagta_hi.yft uses 28.4 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/golf75r.yft uses 23.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/golf75r.yft uses 23.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/golf75r.ytd uses 24.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/golf75r.ytd uses 24.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/golf75r_hi.yft uses 23.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/golf75r_hi.yft uses 23.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/golfgti.ytd uses 16.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/golfgti.ytd uses 16.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/golfmk7.yft uses 18.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/golfmk7.yft uses 18.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/hvrod.yft uses 22.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/hvrod.yft uses 22.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/hvrod.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/hvrod.ytd uses 60.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/hvrod_hi.yft uses 22.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/hvrod_hi.yft uses 22.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/hypeheli.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/hypeheli.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/hypehelihi.ytd uses 34.0 MiB of physical memory.
+[ citizen-server-impl] [93mAsset ghost_veiculos/hypehelihi.ytd uses 34.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/jeepcherokee.yft uses 20.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/jeepcherokee.yft uses 20.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/jeepcherokee_hi.yft uses 18.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/jeepcherokee_hi.yft uses 18.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/luxun.yft uses 28.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/luxun.yft uses 28.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/luxun_hi.yft uses 28.0 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/luxun_hi.yft uses 28.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/LV.ytd uses 46.0 MiB of physical memory.
+[ citizen-server-impl] [93mAsset ghost_veiculos/LV.ytd uses 46.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/mazdarx7.ytd uses 31.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/mazdarx7.ytd uses 31.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/mclarenp1_hi.yft uses 23.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mclarenp1_hi.yft uses 23.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mercedesamg63.yft uses 21.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mercedesamg63.yft uses 21.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mercedesamg63.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/mercedesamg63.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/mercedesamg63_hi.yft uses 19.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mercedesamg63_hi.yft uses 19.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/mustangfast_livery1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/mustangfast_livery1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/na25.yft uses 25.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/na25.yft uses 25.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/na25.ytd uses 51.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/na25.ytd uses 51.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/na25_hi.yft uses 25.0 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/na25_hi.yft uses 25.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/nissangtr50.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/nissangtr50.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/panameramansory.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/panameramansory.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/panameramansory.ytd uses 17.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/panameramansory.ytd uses 17.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/panameramansory_hi.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/panameramansory_hi.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/porsche911.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/porsche911.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/porsche911.ytd uses 19.6 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/porsche911.ytd uses 19.6 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/porsche911_hi.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/porsche911_hi.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r1.ytd uses 29.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/r1.ytd uses 29.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/r1200.yft uses 19.2 MiB of virtual memory.[0m
+[ citizen-server-impl] Asset ghost_veiculos/r1200.yft uses 19.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r1200_hi.yft uses 19.2 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/r1200_hi.yft uses 19.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r6.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r6.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r6_hi.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/r6_hi.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/RK2019.ytd uses 30.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/RK2019.ytd uses 30.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/RS666.yft uses 21.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/RS666.yft uses 21.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/RS666_hi.yft uses 21.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/RS666_hi.yft uses 21.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rs7c8wb.yft uses 27.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rs7c8wb.yft uses 27.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rs7c8wb_hi.yft uses 27.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/rs7c8wb_hi.yft uses 27.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/s1000rr.ytd uses 19.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/s1000rr.ytd uses 19.2 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/silverado1500.ytd uses 19.5 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/silverado1500.ytd uses 19.5 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/skyliner34.ytd uses 23.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/skyliner34.ytd uses 23.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/skyliner342.yft uses 19.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/skyliner342.yft uses 19.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/skyliner342_hi.yft uses 18.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/skyliner342_hi.yft uses 18.9 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/subarubrz.yft uses 23.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/subarubrz.yft uses 23.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/subarubrz.ytd uses 23.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/subarubrz.ytd uses 23.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/subarubrz_hi.yft uses 23.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/subarubrz_hi.yft uses 23.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/toyotasuprast_hi.yft uses 16.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/toyotasuprast_hi.yft uses 16.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_bootglass9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery12.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery12.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery13.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery13.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery14.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery14.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery15.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/toysupmk4_livery15.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery16.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery16.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery17.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery17.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/toysupmk4_livery2.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery2.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery3.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery3.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery4.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery4.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery5.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery5.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_livery9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf1a.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/toysupmk4_windowlf1a.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf1b.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf1b.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/toysupmk4_windowlf6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/toysupmk4_windowlf6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/toysupmk4_windowlf7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlf9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/toysupmk4_windowlr10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr1a.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr1a.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowlr9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/toysupmk4_windowrf1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/toysupmk4_windowrf11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf1a.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf1a.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf1b.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/toysupmk4_windowrf1b.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrf9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr1.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr1a.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/toysupmk4_windowrr1a.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windowrr9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield10.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield11.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield12.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield12.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield6.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield7.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/toysupmk4_windshield8.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/toysupmk4_windshield9.yft uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/vetok.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/vetok.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport11.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport11.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport12.ydr uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport12.ydr uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport14.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport14.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport16.ydr uses 26.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport16.ydr uses 26.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport19.ydr uses 20.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/wheel_sport19.ydr uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport22.ydr uses 20.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/wheel_sport22.ydr uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport23.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/wheel_sport23.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport24.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport24.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport26.ydr uses 18.0 MiB of physical memory.[0m
+[ citizen-server-impl] [94mAsset ghost_veiculos/wheel_sport26.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport27.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/wheel_sport27.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport28.ydr uses 24.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/wheel_sport28.ydr uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport29.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport29.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport30.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport30.ydr uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport31.ydr uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport31.ydr uses 20.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/wheel_sport34.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/wheel_sport34.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport45.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport45.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport54.ydr uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport54.ydr uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport55.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport55.ydr uses 32.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wheel_sport60.ydr uses 24.0 MiB of physical memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/wheel_sport60.ydr uses 24.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRafricat.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRafricat.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRafricat_hi.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRafricat_hi.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/Wrasprinter.ytd uses 16.8 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/Wrasprinter.ytd uses 16.8 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRclassxv2.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRclassxv2.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRclassxv2_hi.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRclassxv2_hi.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrgol.yft uses 16.8 MiB of virtual memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/wrgol.yft uses 16.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRgolquadrado.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRgolquadrado.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRgolquadrado_hi.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRgolquadrado_hi.yft uses 25.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrgol_hi.yft uses 16.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrgol_hi.yft uses 16.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRS911.yft uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/WRS911.yft uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/WRS911.ytd uses 36.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/WRS911.ytd uses 36.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRS911_hi.yft uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/WRS911_hi.yft uses 64.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_veiculos/WRScayp.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRScayp.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRScayp_hi.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRScayp_hi.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRScayt.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/WRScayt.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRScayt_hi.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRScayt_hi.yft uses 18.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscb500hx.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscb500hx.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscb500hx_hi.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscb500hx_hi.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscb500x.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/wrscb500x.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscb500xh.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/wrscb500xh.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscb500xh_hi.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] [94mAsset ghost_veiculos/wrscb500xh_hi.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscb500x_hi.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscb500x_hi.yft uses 17.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscomanf+hi.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscomanf+hi.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscomanf.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrscomanf.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsdef.yft uses 17.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsdef.yft uses 17.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsdef_hi.yft uses 17.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsdef_hi.yft uses 17.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsk9.yft uses 16.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsk9.yft uses 16.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsk9.ytd uses 21.8 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsk9.ytd uses 21.8 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsk9_hi.yft uses 16.1 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsk9_hi.yft uses 16.1 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/WRSpanam.yft uses 28.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRSpanam.yft uses 28.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrspanam2.yft uses 22.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrspanam2.yft uses 22.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrspanam2_hi.yft uses 22.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrspanam2_hi.yft uses 22.6 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRSpanam_hi.yft uses 28.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRSpanam_hi.yft uses 28.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrssierra.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrssierra.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrssierra_hi.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrssierra_hi.yft uses 16.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrstrx.yft uses 21.5 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_veiculos/wrstrx.yft uses 21.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrstrx_hi.yft uses 21.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrstrx_hi.yft uses 21.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRSursa.yft uses 27.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRSursa.yft uses 27.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRSursa_hi.yft uses 27.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRSursa_hi.yft uses 27.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRSvan.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRSvan.ytd uses 18.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsx7.yft uses 18.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsx7.yft uses 18.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsx7.ytd uses 21.8 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsx7.ytd uses 21.8 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsx7_hi.yft uses 18.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/wrsx7_hi.yft uses 18.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRTiger900.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_veiculos/WRTiger900.ytd uses 20.0 MiB of physical memory.
+[ citizen-server-impl] [0mStarted resource ghost_veiculos
+[ citizen-server-impl] Asset ghost_viaturas/VRa4.yft uses 21.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRa4.yft uses 21.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRa4.ytd uses 40.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRa4.ytd uses 40.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRa4_hi.yft uses 21.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRa4_hi.yft uses 21.2 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRdm1200.ytd uses 48.0 MiB of physical memory.[0m
+[ citizen-server-impl] Asset ghost_viaturas/VRdm1200.ytd uses 48.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRraptor.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRraptor.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRraptor.ytd uses 52.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_viaturas/VRraptor.ytd uses 52.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').
+[ citizen-server-impl] Asset ghost_viaturas/VRraptor_hi.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRraptor_hi.yft uses 24.5 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRrs6.yft uses 28.8 MiB of virtual memory.
+[ citizen-server-impl] [0mAsset ghost_viaturas/VRrs6.yft uses 28.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRrs6.ytd uses 40.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRrs6.ytd uses 40.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRrs6_hi.yft uses 28.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRrs6_hi.yft uses 28.8 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRtahoe.yft uses 21.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRtahoe.yft uses 21.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRtahoe.ytd uses 36.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRtahoe.ytd uses 36.0 MiB of physical memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRtahoe_hi.yft uses 21.0 MiB of virtual memory.
+[ citizen-server-impl] Asset ghost_viaturas/VRtahoe_hi.yft uses 21.0 MiB of virtual memory.
+[ citizen-server-impl] Started resource ghost_viaturas
+[ citizen-server-impl] Started resource ghost_entrada
+[    c-scripting-core] Creating script environments for tota_core
+[ citizen-server-impl] Started resource tota_core
+[    c-scripting-core] Creating script environments for tota_stereo
+[ citizen-server-impl] Started resource tota_stereo
+[ citizen-server-impl] Couldn't find resource pma-voice.
+[ citizen-server-impl] Couldn't find resource radio.
+[ citizen-server-impl] Couldn't find resource vrp_drivernorte.
+[    c-scripting-core] Creating script environments for vrp_driversul
+[ citizen-server-impl] [0mStarted resource vrp_driversul
+[ citizen-server-impl] Asset corolacoruja/primo.yft uses 34.0 MiB of virtual memory.
+[ citizen-server-impl] Asset corolacoruja/primo.yft uses 34.0 MiB of virtual memory.
+[ citizen-server-impl] Asset corolacoruja/primo.ytd uses 32.0 MiB of physical memory.[0m
+[ citizen-server-impl] Asset corolacoruja/primo.ytd uses 32.0 MiB of physical memory.
+[ citizen-server-impl] [0mAsset corolacoruja/primo_hi.yft uses 34.0 MiB of virtual memory.
+[ citizen-server-impl] Asset corolacoruja/primo_hi.yft uses 34.0 MiB of virtual memory.
+[ citizen-server-impl] Started resource corolacoruja
+[script:cs-video-call] [0mCritical Scripts | Video Call Proxy Server Listening @ 0.0.0.0:8080
+[      script:webpack] screenshot-basic: built client.config.js
+[      script:webpack] screenshot-basic: started building server.config.js
+[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (ui.config.js)
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[ citizen-server-impl] Started resource fivem-map-hipster
+[     script:ps_phone] [ps_phone] Iniciado - www.pequishop.com
+[ citizen-server-impl] server thread hitch warning: timer interval of 2290 milliseconds
+[      script:JD_logs] -------------------------------------------------------
+[      script:JD_logs] JD_logs
+[      script:JD_logs] UPDATE: 2.1.7.12b AVAILABLE
+[      script:JD_logs] CHANGELOG: N/A
+[      script:JD_logs] -------------------------------------------------------
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] [91mcc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://ghost-dev-69abzd.users.cfx.re/
+[     script:ps_phone] [ps_phone] Falha na autentificação - www.pequishop.com
+[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (ui.config.js)
+[ citizen-server-impl] server thread hitch warning: timer interval of 152 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 118 milliseconds
+[      script:webpack] webpack is busy: we are waiting to compile screenshot-basic (ui.config.js)
+[      script:webpack] screenshot-basic: built server.config.js
+[      script:webpack] [0mscreenshot-basic: started building ui.config.js
+[ citizen-server-impl] sync thread hitch warning: timer interval of 134 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 211 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 146 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 181 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 171 milliseconds
+[      script:webpack] screenshot-basic: built ui.config.js
+[ citizen-server-impl] Build tasks completed - starting resource screenshot-basic.
+[    c-scripting-core] Creating script environments for screenshot-basic
+[ citizen-server-impl] Started resource screenshot-basic
+[ citizen-server-impl] server thread hitch warning: timer interval of 201 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 154 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 190 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 162 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 182 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 103 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 275 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 191 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 291 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 292 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 598 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 599 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 383 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 135 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 237 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 214 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 378 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 391 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 185 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 228 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 304 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 374 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 489 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 175 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 255 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 109 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 320 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 251 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 232 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 280 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 125 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 150 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 185 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 186 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 378 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 339 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 582 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 601 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 214 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 395 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 405 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 139 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 106 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 127 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 183 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 160 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 143 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 184 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 164 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 166 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 155 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 153 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 180 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 242 milliseconds
+[ citizen-server-impl] network thread hitch warning: timer interval of 193 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 246 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 252 milliseconds
+[ citizen-server-main] -> Quitting: SIGHUP received

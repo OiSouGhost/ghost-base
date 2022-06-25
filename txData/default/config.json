@@ -1,0 +1,46 @@
+{
+  "global": {
+    "serverName": "SKZ Roleplay",
+    "language": "en",
+    "menuEnabled": true,
+    "menuAlignRight": false,
+    "menuPageKey": "Tab"
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [],
+    "restarterScheduleWarnings": [
+      30,
+      15,
+      10,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  },
+  "playerController": {
+    "onJoinCheckBan": true,
+    "onJoinCheckWhitelist": false,
+    "minSessionTime": 15,
+    "whitelistRejectionMessage": "You are not yet whitelisted in this server.\nPlease join http://discord.gg/example.\nYour Request ID: <id>",
+    "wipePendingWLOnStart": true
+  },
+  "webServer": {},
+  "discordBot": {
+    "enabled": true,
+    "token": "OTc2NjA2MTcxMjkxMDg2ODc4.GgdgVd.4JveeZwzRhM7fte7-iY0o-xS2_oGtXS9QUkgfA",
+    "announceChannel": "988600398329831444",
+    "prefix": "/",
+    "statusMessage": "**IP:** `change-me:<port>`\n**Players:** <players>\n**Uptime:** <uptime>"
+  },
+  "fxRunner": {
+    "serverDataPath": "C:/Users/leonardo/Desktop/ghost-base/",
+    "cfgPath": "C:/Users/leonardo/Desktop/ghost-base/config.cfg",
+    "commandLine": "",
+    "onesync": "legacy",
+    "autostart": true,
+    "quiet": false
+  }
+}

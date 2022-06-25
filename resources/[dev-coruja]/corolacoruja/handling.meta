@@ -1,0 +1,3001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CHandlingDataMgr>
+	<HandlingData>
+		<Item type="CHandlingData">
+			<handlingName>primo</handlingName>
+			<fMass value="2750.0"/>
+			<fDownforceModifier value="1.8"/>
+			<fInitialDragCoeff value="8.5"/>
+			<fPercentSubmerged value="85.0"/>
+			<vecCentreOfMassOffset x="0.0" y="0.2" z="-0.23"/>
+			<vecInertiaMultiplier x="1.0" y="1.0" z="1.3"/>
+			<fDriveBiasFront value="0.5"/>
+			<nInitialDriveGears value="6"/>
+			<fInitialDriveForce value="0.36"/>
+			<fDriveInertia value="1.0"/>
+			<fClutchChangeRateScaleUpShift value="7.0"/>
+			<fClutchChangeRateScaleDownShift value="6.0"/>
+			<fInitialDriveMaxFlatVel value="185.0"/>
+			<fBrakeForce value="0.90"/>
+			<fBrakeBiasFront value="0.55"/>
+			<fHandBrakeForce value="0.75"/>
+			<fSteeringLock value="42.0"/>
+			<fTractionCurveMax value="2.8"/>
+			<fTractionCurveMin value="2.4"/>
+			<fTractionCurveLateral value="23.5"/>
+			<fTractionSpringDeltaMax value="0.19"/>
+			<fLowSpeedTractionLossMult value="0.3"/>
+			<fCamberStiffnesss value="0.0"/>
+			<fTractionBiasFront value="0.5"/>
+			<fTractionLossMult value="1.0"/>
+			<fSuspensionForce value="3.2"/>
+			<fSuspensionCompDamp value="1.5"/>
+			<fSuspensionReboundDamp value="3.4"/>
+			<fSuspensionUpperLimit value="0.15"/>
+			<fSuspensionLowerLimit value="-0.2"/>
+			<fSuspensionRaise value="0.03"/>
+			<fSuspensionBiasFront value="0.5"/>
+			<fAntiRollBarForce value="0.0"/>
+			<fAntiRollBarBiasFront value="0.5"/>
+			<fRollCentreHeightFront value="0.25"/>
+			<fRollCentreHeightRear value="0.26"/>
+			<fCollisionDamageMult value="2.0"/>
+			<fWeaponDamageMult value="2.0"/>
+			<fDeformationDamageMult value="0.0"/>
+			<fEngineDamageMult value="1.0"/>
+			<fPetrolTankVolume value="65.0"/>
+			<fOilVolume value="8.0"/>
+			<fSeatOffsetDistX value="0.0"/>
+			<fSeatOffsetDistY value="-0.1"/>
+			<fSeatOffsetDistZ value="0.0"/>
+			<nMonetaryValue value="50000"/>
+			<strModelFlags>440010</strModelFlags>
+			<strHandlingFlags>120000</strHandlingFlags>
+			<strDamageFlags>0</strDamageFlags>
+			<AIHandling>SPORTS_CAR</AIHandling>
+			<SubHandlingData>
+				<Item type="NULL"/>
+				<Item type="NULL"/>
+				<Item type="NULL"/>
+			</SubHandlingData>
+		</Item>
+	</HandlingData>
+</CHandlingDataMgr>
+
+<CAIHandlingInfoMgr>
+	<AIHandlingInfos>
+		<Item type="CAIHandlingInfo">
+			<Name>SPORTS_CAR</Name>
+			<MinBrakeDistance value="45.0"/>
+			<MaxBrakeDistance value="105.0"/>
+			<MaxSpeedAtBrakeDistance value="25.0"/>
+			<AbsoluteMinSpeed value="0.010000"/>
+			<AICurvePoints>
+				<Item type="CAICurvePoint">
+					<Angle value="0.0"/>
+					<Speed value="50.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="1.0"/>
+					<Speed value="48.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="2.0"/>
+					<Speed value="47.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="3.0"/>
+					<Speed value="46.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="4.0"/>
+					<Speed value="45.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="5.0"/>
+					<Speed value="44.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="6.0"/>
+					<Speed value="43.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="7.0"/>
+					<Speed value="42.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="8.0"/>
+					<Speed value="41.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="9.0"/>
+					<Speed value="40.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="10.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="11.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="12.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="13.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="14.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="15.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="16.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="17.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="18.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="19.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="20.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="21.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="22.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="23.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="24.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="25.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="26.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="27.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="28.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="29.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="30.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="31.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="32.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="33.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="34.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="35.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="36.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="37.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="38.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="39.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="40.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="41.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="42.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="43.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="44.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="45.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="46.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="47.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="48.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="49.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="50.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="51.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="52.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="53.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="54.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="55.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="56.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="57.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="58.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="59.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="60.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="61.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="62.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="63.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="64.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="65.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="66.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="67.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="68.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="69.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="70.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="71.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="72.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="73.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="74.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="75.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="76.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="77.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="78.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="79.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="80.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="81.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="82.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="83.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="84.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="85.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="86.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="87.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="88.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="89.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="90.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="91.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="92.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="93.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="94.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="95.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="96.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="97.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="98.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="99.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="100.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="101.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="102.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="103.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="104.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="105.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="106.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="107.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="108.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="109.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="110.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="111.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="112.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="113.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="114.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="115.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="116.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="117.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="118.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="119.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="120.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="121.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="122.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="123.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="124.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="125.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="126.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="127.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="128.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="129.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="130.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="131.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="132.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="133.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="134.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="135.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="136.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="137.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="138.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="139.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="140.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="141.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="142.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="143.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="144.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="145.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="146.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="147.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="148.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="149.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="150.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="151.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="152.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="153.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="154.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="155.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="156.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="157.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="158.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="159.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="160.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="161.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="162.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="163.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="164.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="165.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="166.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="167.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="168.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="169.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="170.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="171.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="172.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="173.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="174.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="175.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="176.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="177.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="178.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="179.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="180.0"/>
+					<Speed value="4.0"/>
+				</Item>
+			</AICurvePoints>
+		</Item>
+		<Item type="CAIHandlingInfo">
+			<Name>AVERAGE</Name>
+			<MinBrakeDistance value="40.0"/>
+			<MaxBrakeDistance value="100.0"/>
+			<MaxSpeedAtBrakeDistance value="25.0"/>
+			<AbsoluteMinSpeed value="0.010000"/>
+			<AICurvePoints>
+				<Item type="CAICurvePoint">
+					<Angle value="0.0"/>
+					<Speed value="45.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="1.0"/>
+					<Speed value="43.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="2.0"/>
+					<Speed value="42.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="3.0"/>
+					<Speed value="41.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="4.0"/>
+					<Speed value="40.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="5.0"/>
+					<Speed value="39.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="6.0"/>
+					<Speed value="38.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="7.0"/>
+					<Speed value="37.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="8.0"/>
+					<Speed value="36.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="9.0"/>
+					<Speed value="35.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="10.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="11.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="12.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="13.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="14.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="15.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="16.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="17.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="18.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="19.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="20.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="21.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="22.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="23.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="24.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="25.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="26.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="27.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="28.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="29.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="30.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="31.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="32.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="33.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="34.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="35.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="36.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="37.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="38.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="39.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="40.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="41.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="42.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="43.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="44.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="45.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="46.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="47.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="48.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="49.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="50.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="51.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="52.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="53.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="54.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="55.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="56.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="57.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="58.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="59.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="60.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="61.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="62.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="63.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="64.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="65.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="66.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="67.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="68.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="69.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="70.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="71.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="72.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="73.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="74.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="75.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="76.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="77.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="78.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="79.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="80.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="81.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="82.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="83.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="84.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="85.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="86.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="87.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="88.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="89.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="90.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="91.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="92.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="93.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="94.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="95.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="96.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="97.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="98.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="99.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="100.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="101.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="102.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="103.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="104.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="105.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="106.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="107.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="108.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="109.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="110.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="111.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="112.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="113.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="114.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="115.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="116.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="117.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="118.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="119.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="120.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="121.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="122.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="123.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="124.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="125.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="126.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="127.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="128.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="129.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="130.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="131.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="132.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="133.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="134.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="135.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="136.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="137.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="138.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="139.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="140.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="141.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="142.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="143.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="144.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="145.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="146.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="147.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="148.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="149.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="150.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="151.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="152.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="153.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="154.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="155.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="156.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="157.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="158.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="159.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="160.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="161.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="162.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="163.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="164.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="165.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="166.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="167.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="168.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="169.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="170.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="171.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="172.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="173.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="174.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="175.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="176.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="177.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="178.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="179.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="180.0"/>
+					<Speed value="4.0"/>
+				</Item>
+			</AICurvePoints>
+		</Item>
+		<Item type="CAIHandlingInfo">
+			<Name>CRAP</Name>
+			<MinBrakeDistance value="35.0"/>
+			<MaxBrakeDistance value="95.0"/>
+			<MaxSpeedAtBrakeDistance value="25.0"/>
+			<AbsoluteMinSpeed value="0.010000"/>
+			<AICurvePoints>
+				<Item type="CAICurvePoint">
+					<Angle value="0.0"/>
+					<Speed value="45.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="1.0"/>
+					<Speed value="43.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="2.0"/>
+					<Speed value="42.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="3.0"/>
+					<Speed value="41.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="4.0"/>
+					<Speed value="40.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="5.0"/>
+					<Speed value="39.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="6.0"/>
+					<Speed value="38.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="7.0"/>
+					<Speed value="37.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="8.0"/>
+					<Speed value="36.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="9.0"/>
+					<Speed value="35.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="10.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="11.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="12.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="13.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="14.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="15.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="16.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="17.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="18.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="19.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="20.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="21.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="22.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="23.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="24.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="25.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="26.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="27.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="28.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="29.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="30.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="31.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="32.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="33.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="34.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="35.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="36.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="37.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="38.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="39.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="40.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="41.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="42.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="43.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="44.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="45.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="46.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="47.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="48.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="49.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="50.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="51.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="52.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="53.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="54.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="55.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="56.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="57.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="58.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="59.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="60.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="61.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="62.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="63.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="64.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="65.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="66.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="67.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="68.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="69.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="70.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="71.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="72.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="73.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="74.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="75.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="76.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="77.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="78.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="79.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="80.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="81.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="82.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="83.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="84.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="85.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="86.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="87.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="88.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="89.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="90.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="91.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="92.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="93.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="94.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="95.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="96.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="97.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="98.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="99.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="100.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="101.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="102.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="103.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="104.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="105.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="106.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="107.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="108.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="109.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="110.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="111.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="112.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="113.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="114.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="115.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="116.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="117.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="118.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="119.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="120.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="121.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="122.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="123.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="124.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="125.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="126.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="127.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="128.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="129.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="130.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="131.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="132.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="133.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="134.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="135.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="136.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="137.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="138.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="139.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="140.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="141.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="142.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="143.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="144.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="145.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="146.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="147.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="148.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="149.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="150.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="151.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="152.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="153.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="154.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="155.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="156.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="157.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="158.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="159.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="160.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="161.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="162.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="163.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="164.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="165.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="166.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="167.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="168.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="169.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="170.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="171.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="172.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="173.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="174.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="175.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="176.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="177.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="178.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="179.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="180.0"/>
+					<Speed value="4.0"/>
+				</Item>
+			</AICurvePoints>
+		</Item>
+		<Item type="CAIHandlingInfo">
+			<Name>TRUCK</Name>
+			<MinBrakeDistance value="45.0"/>
+			<MaxBrakeDistance value="105.0"/>
+			<MaxSpeedAtBrakeDistance value="25.0"/>
+			<AbsoluteMinSpeed value="0.010000"/>
+			<AICurvePoints>
+				<Item type="CAICurvePoint">
+					<Angle value="0.0"/>
+					<Speed value="40.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="1.0"/>
+					<Speed value="38.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="2.0"/>
+					<Speed value="37.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="3.0"/>
+					<Speed value="36.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="4.0"/>
+					<Speed value="35.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="5.0"/>
+					<Speed value="34.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="6.0"/>
+					<Speed value="33.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="7.0"/>
+					<Speed value="32.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="8.0"/>
+					<Speed value="31.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="9.0"/>
+					<Speed value="30.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="10.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="11.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="12.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="13.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="14.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="15.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="16.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="17.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="18.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="19.0"/>
+					<Speed value="20.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="20.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="21.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="22.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="23.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="24.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="25.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="26.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="27.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="28.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="29.0"/>
+					<Speed value="19.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="30.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="31.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="32.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="33.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="34.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="35.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="36.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="37.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="38.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="39.0"/>
+					<Speed value="18.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="40.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="41.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="42.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="43.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="44.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="45.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="46.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="47.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="48.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="49.0"/>
+					<Speed value="17.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="50.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="51.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="52.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="53.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="54.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="55.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="56.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="57.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="58.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="59.0"/>
+					<Speed value="16.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="60.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="61.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="62.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="63.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="64.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="65.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="66.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="67.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="68.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="69.0"/>
+					<Speed value="15.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="70.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="71.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="72.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="73.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="74.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="75.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="76.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="77.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="78.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="79.0"/>
+					<Speed value="14.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="80.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="81.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="82.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="83.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="84.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="85.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="86.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="87.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="88.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="89.0"/>
+					<Speed value="13.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="90.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="91.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="92.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="93.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="94.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="95.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="96.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="97.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="98.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="99.0"/>
+					<Speed value="12.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="100.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="101.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="102.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="103.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="104.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="105.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="106.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="107.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="108.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="109.0"/>
+					<Speed value="11.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="110.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="111.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="112.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="113.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="114.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="115.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="116.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="117.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="118.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="119.0"/>
+					<Speed value="10.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="120.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="121.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="122.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="123.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="124.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="125.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="126.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="127.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="128.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="129.0"/>
+					<Speed value="9.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="130.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="131.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="132.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="133.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="134.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="135.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="136.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="137.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="138.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="139.0"/>
+					<Speed value="8.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="140.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="141.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="142.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="143.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="144.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="145.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="146.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="147.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="148.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="149.0"/>
+					<Speed value="7.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="150.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="151.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="152.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="153.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="154.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="155.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="156.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="157.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="158.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="159.0"/>
+					<Speed value="6.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="160.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="161.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="162.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="163.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="164.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="165.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="166.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="167.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="168.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="169.0"/>
+					<Speed value="5.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="170.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="171.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="172.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="173.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="174.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="175.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="176.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="177.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="178.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="179.0"/>
+					<Speed value="4.0"/>
+				</Item>
+				<Item type="CAICurvePoint">
+					<Angle value="180.0"/>
+					<Speed value="4.0"/>
+				</Item>
+			</AICurvePoints>
+		</Item>
+	</AIHandlingInfos>
+</CAIHandlingInfoMgr>
